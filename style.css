@@ -1,0 +1,281 @@
+.tm-brand-name {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    color: red;
+  }
+  10% {
+    color: Rich black ;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: dark purple;
+  }
+  100% {
+    color: black;
+  }
+}
+.tm-bg-green {
+    
+  background: hsla(258, 28%, 91%, 1);
+
+  background: radial-gradient(circle, hsla(258, 28%, 91%, 1) 0%, hsla(184, 100%, 94%, 1) 25%, hsla(205, 54%, 72%, 1) 50%, hsla(162, 79%, 67%, 1) 75%, hsla(186, 100%, 78%, 1) 100%);
+  
+  background: -moz-radial-gradient(circle, hsla(258, 28%, 91%, 1) 0%, hsla(184, 100%, 94%, 1) 25%, hsla(205, 54%, 72%, 1) 50%, hsla(162, 79%, 67%, 1) 75%, hsla(186, 100%, 78%, 1) 100%);
+  
+  background: -webkit-radial-gradient(circle, hsla(258, 28%, 91%, 1) 0%, hsla(184, 100%, 94%, 1) 25%, hsla(205, 54%, 72%, 1) 50%, hsla(162, 79%, 67%, 1) 75%, hsla(186, 100%, 78%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e5e1ee", endColorstr="#dffdff", GradientType=1 );
+}
+.tm-bg-orange {
+
+  background: hsla(14, 77%, 54%, 1);
+
+  background: linear-gradient(
+    180deg,
+    hsla(14, 77%, 54%, 1) 0%,
+    hsla(63, 88%, 70%, 1) 25%,
+    hsla(94, 50%, 95%, 1) 50%,
+    hsla(88, 36%, 65%, 1) 75%,
+    hsla(59, 23%, 50%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(14, 77%, 54%, 1) 0%,
+    hsla(63, 88%, 70%, 1) 25%,
+    hsla(94, 50%, 95%, 1) 50%,
+    hsla(88, 36%, 65%, 1) 75%,
+    hsla(59, 23%, 50%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(14, 77%, 54%, 1) 0%,
+    hsla(63, 88%, 70%, 1) 25%,
+    hsla(94, 50%, 95%, 1) 50%,
+    hsla(88, 36%, 65%, 1) 75%,
+    hsla(59, 23%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e4572e", endColorstr="#f0f66e", GradientType=1 );
+}
+
+.tm-bg-blue {
+    
+  background: hsla(204, 56%, 31%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(204, 56%, 31%, 1) 0%,
+    hsla(181, 49%, 43%, 1) 25%,
+    hsla(154, 53%, 57%, 1) 50%,
+    hsla(134, 75%, 72%, 1) 75%,
+    hsla(126, 81%, 88%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(204, 56%, 31%, 1) 0%,
+    hsla(181, 49%, 43%, 1) 25%,
+    hsla(154, 53%, 57%, 1) 50%,
+    hsla(134, 75%, 72%, 1) 75%,
+    hsla(126, 81%, 88%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(204, 56%, 31%, 1) 0%,
+    hsla(181, 49%, 43%, 1) 25%,
+    hsla(154, 53%, 57%, 1) 50%,
+    hsla(134, 75%, 72%, 1) 75%,
+    hsla(126, 81%, 88%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22577a", endColorstr="#38a3a5", GradientType=1 );
+}
+.tm-bg-dark-gray {
+    
+  background: hsla(39, 100%, 71%, 1);
+
+  background: linear-gradient(
+    225deg,
+    hsla(39, 100%, 71%, 1) 45%,
+    hsla(216, 100%, 62%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(39, 100%, 71%, 1) 45%,
+    hsla(216, 100%, 62%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(39, 100%, 71%, 1) 45%,
+    hsla(216, 100%, 62%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFCB6B", endColorstr="#3D8BFF", GradientType=1 );
+}
+
+  
+  .tm-title-small {
+    font-size: 1.3rem;
+  }
+  .form-group{
+    color:	#303030;
+    font-weight:bolder;
+  }
+  
+  .tm-copyright-text{
+    font-size:25px;
+    color:white;
+  }
+  
+    
+  #portfolio {
+    padding-top: 80px;
+    background: linear-gradient( #4d0026,#00004d,#39004d,#4d004d);
+  }
+  
+  
+  .tm-contact-item a{
+    text-decoration:none;
+  }
+  
+  
+  .tm-contact-item:hover{
+    background-color:white;
+  }
+  
+  
+  form:hover{
+    background-color:#f5f749;
+    color:#82c09a;
+  }
+  
+  .tm-welcome-right{
+    text-decoration:none;
+    color:white;
+    
+  }
+  
+  a{
+    text-decoration:none;
+    color:blue;
+  }
+ .tm-text-green{
+  animation-name: example0;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example0 {
+  0% {
+    color: #36213e;
+  }
+  10% {
+    color: Rich black ;
+  }
+  25% {
+    color: #2e86ab;
+  }
+  50% {
+    color: #f24236;
+  }
+  75% {
+    color: dark purple;
+  }
+  100% {
+    color: #be92a2;
+  } 
+ }
+ .tm-text-orange{
+  animation-name: example1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+  0% {
+    color: red;
+  }
+  10% {
+    color: Rich #ca907e ;
+  }
+  25% {
+    color: #21295c;
+  }
+  50% {
+    color: #8e8358;
+  }
+  75% {
+    color: dark #244f26;
+  }
+  100% {
+    color: black;
+  }  
+ }
+ .tm-text-blue{
+  animation-name: example2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+  0% {
+    color: #9893da;
+  }
+  10% {
+    color: Rich black ;
+  }
+  25% {
+    color: #ef476f;
+  }
+  50% {
+    color: #361f27;
+  }
+  75% {
+    color: dark #e59500;
+  }
+  100% {
+    color: #002642;
+  }  
+ }
+ .tm-text-dark-gray{
+  animation-name: example3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example3 {
+  0% {
+    color: #ecd444;
+  }
+  10% {
+    color: #f4743b ;
+  }
+  25% {
+    color:#646f4b;
+  }
+  50% {
+    color:#e56b70;
+  }
+  75% {
+    color: dark #6e2594;
+  }
+  100% {
+    color:#440d0f;
+  }  
+ 
+ }
